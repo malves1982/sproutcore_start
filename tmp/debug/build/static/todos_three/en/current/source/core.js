@@ -8,4 +8,4 @@ TodosThree = SC.Application.create(
     simulateRemoteResponse: YES,
     latency: 250
   }))
-});
+});; if ((typeof SC !== 'undefined') && SC && SC.Module && SC.Module.scriptDidLoad) SC.Module.scriptDidLoad('todos_three');
